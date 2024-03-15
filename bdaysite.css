@@ -1,0 +1,85 @@
+body{
+    /* display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  /* background: rgb(0, 157, 255); */
+  background: linear-gradient(#a2d2ff, rgb(205, 192, 255));
+  /* color: rgb(255, 230, 192); */
+  color:grey; 
+
+
+}
+
+#image-holder{
+width: 400px;
+border-radius: 200px;
+border: 5px solid pink;
+}
+
+h1, h2, h3, h4, p{ 
+    text-shadow: 0px 0px 1px black;
+}
+
+.gift-image{
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px; 
+  background-image: url(bdaybox.jpg);
+  background-size: cover; 
+}
+
+.giftsection{
+  margin-top: 50px;
+}
+
+.gift-title{
+  margin-bottom: 10px;
+}
+
+.gift-note{
+margin-top: 0;
+}
+
+#gift-image-happy:hover{
+  background-image: url(happygif.gif);   
+}
+
+
+#gift-image-hot:hover{
+  background-image: url(mythoughts.gif);
+}
+
+#gift-image-genius:hover{
+  background-image: url(genius.gif);
+}
+
+#gift-image-badass:hover{
+  background-image: url(Youwoman.webp);
+  align-items: center;
+}
+
+#gift-image-thanks{
+  height: 200px; 
+  width: 200px;
+}
+
+#gift-image-thanks:hover{
+  background-image: url(thankyou.webp);
+}
+
+#footer{
+width: 400px;
+margin: 40px auto 20px;
+font-style: italic;
+}
+
+a{
+  color: white;
+}
